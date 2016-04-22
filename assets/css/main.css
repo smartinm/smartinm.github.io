@@ -1,0 +1,174 @@
+body
+{
+  background-color: #f2f2f2;
+  color: #555;
+  padding-top: 150px;
+  background-image: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font: 300 16px "Lato"
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #333
+}
+
+h1,h2,h3
+{
+  margin-top: 0
+}
+
+p
+{
+  line-height: 28px;
+  margin-bottom: 10px
+}
+
+a
+{
+  color: #1abc9c;
+  word-wrap: break-word;
+}
+
+a:hover,a:focus
+{
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0
+}
+
+hr
+{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: .5em 0;
+  padding: 0
+}
+
+.w
+{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -moz-box-shadow: 5px 5px rgba(0,0,0,.2);
+  -webkit-box-shadow: 5px 5px rgba(0,0,0,.2);
+  box-shadow: 5px 5px rgba(0,0,0,.2)
+}
+
+.col-md-4
+{
+  padding-left: 0;
+  padding-right: 0
+}
+
+.col-md-8
+{
+  padding-left: 0;
+  padding-right: 0
+}
+
+.content
+{
+  background-color: #fff;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 15px
+}
+
+.content h1
+{
+  font-size: 24px
+}
+
+.content h2
+{
+  font-size: 14px;
+  color: #bdc3c7;
+  font-weight: 700;
+  letter-spacing: 1px
+}
+
+.social
+{
+  margin: 0 -5px;
+  padding: 0
+}
+
+.social::after
+{
+  clear: both;
+  content: "";
+  display: table
+}
+
+.social li
+{
+  display: inline-block;
+  float: left
+}
+
+.social li a
+{
+  border-radius: 5px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  display: inline-block;
+  height: 48px;
+  margin: 5px;
+  text-indent: -9999em;
+  width: 48px
+}
+
+.si-email
+{
+  background-color: #000;
+  background-image: url(../icons/email-48.png)
+}
+
+.si-linkedin
+{
+  background-color: #007fb1;
+  background-image: url(../icons/linkedin-48.png)
+}
+
+.si-github
+{
+  background-color: #4183c4;
+  background-image: url(../icons/github-48.png)
+}
+
+.si-twitter
+{
+  background-color: #00aced;
+  background-image: url(../icons/twitter-48.png)
+}
+
+.si-drupal
+{
+  background-color: #0077c0;
+  background-image: url(../icons/drupal-48.png)
+}
+
+.si-stackexchange
+{
+  background-color: #1f5196;
+  background-image: url(../icons/stackexchange-48.png)
+}
+
+@media (max-width: 991px) {
+  body
+  {
+    padding-top: 20px;
+    padding-bottom: 20px
+  }
+}
